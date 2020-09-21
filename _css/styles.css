@@ -2,6 +2,15 @@ html, body {
 	margin: 0;
 	background-color: #663399; /* Beccapurple */
 }
+
+/*
+Problem 2:
+I added the background color hex value to this rule above,
+and added a comment that is the color.
+*/
+
+
+
 h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
@@ -17,7 +26,13 @@ body {
 	background: white;
 	line-height: 1.8;
 	font-family: Verdana, geneva, sans-serif ;
+	font-size: 100%;
 }
+/* problem 4:
+since all the text will be in the body of the html file, I added a rule that the font is
+100% of the default font size, and will request verdana, and I set geneva and sans-serif as
+a fall back font family */
+
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
 	margin-bottom: .4em;
@@ -111,3 +126,7 @@ blockquote {
 	margin-right: 10px;
 	float: left;
 }
+/* problem 3:
+I added the respective float properties to each rule. floatRight, has the float: right rules
+and the left has the float: left rule. this allows the text to form around the picture
+based on the direction i put on it. */
